@@ -11,7 +11,7 @@ client.on('message', (message) => {
 })
 
 client.on('ready', () => {
-    console.log(`${client.user.tag} is Online and ready to go!`)
+    console.log(`${client.user.tag} is Online and ready to go`)
     client.user.setUsername("2Cool4Skool")
  
 
